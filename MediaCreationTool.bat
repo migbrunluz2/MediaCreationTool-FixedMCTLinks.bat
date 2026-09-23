@@ -2,7 +2,10 @@
 :Universal MCT wrapper script for all Windows 10/11 versions from 1507 to 23H2!
 :: Nothing but Microsoft-hosted source links and no third-party tools; script just configures an xml and starts MCT
 :: Ingenious support for business editions (Enterprise / VL) selecting language, x86, x64 or AiO inside the MCT GUI
-:: Changelog: 2023.11.29 stable
+:: Changelog: 2026.09.23 (un)stable
+:: Fixed dead links for 1507-1809 downloads via using Wayback Machine links,may not work at times
+:: If you are using Windows 7 you need to enable TLS 1.2/1.3 & update Powershell
+:: Will add links soon..currently busy with life and school...
 :: - all issues ironed out; upgrade keeping files from Eval editions too; pickup $ISO$ dir content to add on media
 :: - DU in 11: auto installs 22000.556 atm; older skip_11_checks, without Server label; Home offline local account
 :: on upgrade: latest build, on offline install: 11 23H2 22631.2861 / 11 22H2 22621.1702 / 11 21H2 22000.318 / 22H2 19045.2965 / 21H2 19044.1288 / 21H1 19043.1348 / 20H2 19042.1052
